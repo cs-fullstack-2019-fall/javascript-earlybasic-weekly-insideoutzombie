@@ -1,15 +1,5 @@
-// ### Phase 2 <---------
+// ### Challenge <------
 
-// #### When selecting count by pressing 1 (2 points):
-// Ask the user to count by twos.
-// - If they select count by twos, ask them to enter a number. \
-// Start at 1 and count up to that number in the console log by twos.
-//
-// #### When selecting use a calculator by pressing 2 (2 points):
-// Ask the user if they want to use subtraction.
-// - If they select 's', ask them to enter two numbers. Give them the difference of the numbers.
-// <hr>
-//
 // ### Challenge
 // - Ask the user to input the starting number when counting by ones and twos.
 // - Make sure if the user enters an invalid selection say "ERROR", then retry the question.
@@ -24,7 +14,15 @@ if (user === 1) {
   var kount = prompt("Would you like to count by ones? Press 'y' for yes or 'n' for no ");
   if (kount === 'y') {
     var numb2 = parseInt(prompt("Enter a starting number"));
+    if (numb2 = 'a') {
+      // so the below alert does work if you input 'a' unfortunately i was un able to figure out the entire alphabet in time
+      alert("error");
+    }
     var numb1 = parseInt(prompt("Enter a ending number"));
+    if (numb1 = 'a') {
+      // so the below alert does work if you input 'a' unfortunately i was un able to figure out the entire alphabet in time
+      alert("error");
+    }
 
     for (var x = numb2; x <= numb1; x++){
 
