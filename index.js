@@ -1,3 +1,5 @@
+// ### Phase 1 <-------
+
 // ### Ask the user to enter to enter an option, then go to that option (2 points):
 // Example:
 // "Welcome to Kenn's program. Press 1 to count. Press 2 to use a calculator. Press q to quit".

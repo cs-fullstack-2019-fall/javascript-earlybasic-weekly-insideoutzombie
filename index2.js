@@ -1,4 +1,5 @@
-// ### Phase 2
+// ### Phase 2 <---------
+
 // #### When selecting count by pressing 1 (2 points):
 // Ask the user to count by twos.
 // - If they select count by twos, ask them to enter a number. \
@@ -22,16 +23,19 @@ if (user === 1) {
   alert("Welcome to level 1");
   var kount = prompt("Would you like to count by ones? Press 'y' for yes or 'n' for no ");
   if (kount === 'y') {
-    var numb1 = parseInt(prompt("Enter a number bruh"));
+    var numb2 = parseInt(prompt("Enter a starting number"));
+    var numb1 = parseInt(prompt("Enter a ending number"));
 
-    for (var x = 1; x <= numb1; x++){
+
+    for (var x = numb2; x <= numb1; x++){
       console.log(x);
     }
     x++;
   } else {
     var numb4 = prompt("Would you like to count by twos? Press 'y' for yes");
-    var numb1 = parseInt(prompt("Enter a number bruh"));
-      for (var x = 2; x <= numb1; x++){
+    var numb2 = parseInt(prompt("Enter a starting number"));
+    var numb1 = parseInt(prompt("Enter a ending number"));
+      for (var x = numb2; x <= numb1; x++){
         console.log(x);
         x++;
       }
