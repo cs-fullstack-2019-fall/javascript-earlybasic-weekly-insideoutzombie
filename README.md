@@ -1,3 +1,6 @@
+Excellent job!
+You did more than was needed. In future, focus on core requirements first.
+
 # javaScript-earlybasic-weekly
 
 ## Weekly Project (Total 10 points)
